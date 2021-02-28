@@ -13,7 +13,7 @@ To make this example work you will need to provide the function with the followi
 # Usage
 
 Deallocate the target machine
-```http://{{function adres}}/api/MachineOperation?operation=deallocate```
+```http://{{function}}/api/MachineOperation?operation=deallocate```
 
 Start the target machine
-```http://{{function adres}}/api/MachineOperation?operation=start```
+```http://{{function}}/api/MachineOperation?operation=start```
