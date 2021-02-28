@@ -9,3 +9,11 @@ To make this example work you will need to provide the function with the followi
 - ResourceGroup
 - Machine
 - Secret
+
+# Usage
+
+Deallocate the target machine
+```http://{{function adres}}/api/MachineOperation?operation=deallocate```
+
+Start the target machine
+```http://{{function adres}}/api/MachineOperation?operation=start```
